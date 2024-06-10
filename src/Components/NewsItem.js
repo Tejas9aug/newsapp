@@ -4,7 +4,7 @@ const NewsItem = (props) => {
   let { title, description, imageUrl, newsUrl, author, date, source } = props;
   return (
     <>
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card my-2 mx-4" style={{ width: "18rem" }} >
         <img
           src={
             !imageUrl

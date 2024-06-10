@@ -20,7 +20,7 @@ const App = () => {
         <LoadingBar
           color="#1f1ce6"
           progress={progress}
-          height={4}
+          height={3}
           onLoaderFinished={() => setProgress(progress)}
         />
 
